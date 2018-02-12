@@ -1,0 +1,85 @@
+html{
+	background: url(../images/NBA-vector-logos-708x534.jpg) no-repeat center center fixed; 
+	background-size: 100%;
+}
+
+header{
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	margin: 15px auto;
+	height: 150px;
+	width: 80%;
+	background-color: #DFA040;
+	font-family: 'Monoton', cursive;
+
+}
+
+h1, h2{
+	margin-top: 10px;
+}
+
+h1{
+	color: red;
+}
+
+
+h2
+{
+	color: blue;
+}
+
+.underscore {
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px auto;
+	height: 350px;
+	width: 30%;
+	background-color: #DFA040;
+	
+}
+
+.under {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.score {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.wins {
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	height: 150px;
+	width: 30%;
+	background-color: #DFA040;
+	float: left;
+	margin-right: 30px;
+}
+
+.lettersguessed {
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	height: 150px;
+	width: 30%;
+	background-color: #DFA040;
+	float: left
+}
+
+.losses {
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	height: 150px;
+	width: 30%;
+	background-color: #DFA040;
+	float: left;
+	margin-right: 20px;
+}
