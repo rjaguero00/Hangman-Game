@@ -37,15 +37,12 @@ var computerGuess = "",
 
 
 
-function start (){
 computerGuess = guessWords[Math.floor(Math.random() * guessWords.length)];
 var rightGuess = [];
 for (var i = 0; i < computerGuess.length; i++) {
 	rightGuess[i] = "_";
 	}
-	document.getElementById("letters").innerHTML= rightGuess.join("_");
-}	
-
+	console.log(rightGuess)
 
 
 // document.onkeyup = function(event){
