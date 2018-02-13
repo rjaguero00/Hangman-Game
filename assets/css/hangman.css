@@ -40,7 +40,7 @@ h2
 	
 }
 
-.under {
+#letters {
 	text-align: center;
 	margin-top: 150px;
 }
@@ -57,10 +57,10 @@ h2
 	font-size: 20px;
 	text-align: center;
 	height: 150px;
-	width: 30%;
+	width: 20%;
 	background-color: #DFA040;
 	float: left;
-	margin-right: 30px;
+	margin-right: 5px;
 }
 
 .lettersguessed {
@@ -68,9 +68,10 @@ h2
 	font-size: 20px;
 	text-align: center;
 	height: 150px;
-	width: 30%;
+	width: 20%;
 	background-color: #DFA040;
-	float: left
+	float: left;
+	margin-right: 5px;
 }
 
 .losses {
@@ -78,8 +79,22 @@ h2
 	font-size: 20px;
 	text-align: center;
 	height: 150px;
-	width: 30%;
+	width: 20%;
 	background-color: #DFA040;
 	float: left;
-	margin-right: 20px;
+	margin-right: 5px;
+}
+
+.guessesremaining {
+	border: 3px solid black;
+	font-size: 20px;
+	text-align: center;
+	height: 150px;
+	width: 20%;
+	background-color: #DFA040;
+	float: left;
+}
+
+p {
+	font-size: 40px;
 }
