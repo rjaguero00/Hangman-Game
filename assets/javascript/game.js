@@ -42,12 +42,12 @@ var rightGuess = [];
 for (var i = 0; i < computerGuess.length; i++) {
 	rightGuess[i] = "_";
 	}
-	console.log(rightGuess)
+	console.log(computerGuess)
 
 
-// document.onkeyup = function(event){
-// 	words.push(event.key);
-// 	var a = computerGuess.indexOf(event.key);
-// 	console.log(a)
+document.onkeyup = function(event){
+	rightGuess.push(event.key);
+	var a = computerGuess.indexOf(event.key);
+	console.log(a)
 
-// }
+}
