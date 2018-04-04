@@ -1,32 +1,43 @@
 <!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-	<title>HangMan</title>
-	<link rel="stylesheet" href="assets/css/hangman.css">
-	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nba Hangman</title>
+    <link rel="stylesheet" href="assets/css/hangman.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
 </head>
+
 <body>
+    <header>
+        <h1>HangMan</h1>
+        <h2>NBA Style</h2>
+    </header>
 
-		<header>
-			<h1>HangMan</h1>
-			<h2>NBA Style</h2>
-		</header>
+    <div class="container">
+        <div id="box1">
+            <h4>Guess the word!</h4>
+            <div id="letters"></div>
+        </div>
 
-	
-	<div class="container" >
-		<div class="underscore">
-			<div id="letters">_ _ _ _ _ _ _ _ _ _</div> 
-		</div>
+        <div id="score">
+            <div id="wins">
+            </div>
+            <div id="losses">
+            </div>
+            <div id="lettersguessed">
+            </div>
+            <div id="guessesremaining">
+            </div>
+        </div>
 
-	<div class="score">	
-		<div class="wins">Wins </div>
-		<div class="losses">Losses</div>
-		<div class="lettersguessed">Letters Guessed</div>
-		<div class="guessesremaining">Remaining Guesses
-			<p>10</p>
-		</div>
-	</div>
+    </div>
 
-	</div>		
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
